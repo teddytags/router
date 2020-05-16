@@ -11,6 +11,9 @@
     "teddytags": "^2.0.2",
     "typescript": "^3.9.2"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "rollup -c rollup.config.ts",
     "build:watch": "rollup -c rollup.config.ts -w",
